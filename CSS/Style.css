@@ -1,0 +1,98 @@
+/* Fichier : css/style.css */
+:root {
+    --primary-color: #1a365d;
+    --accent-color: #2b6cb0;
+    --text-color: #2d3748;
+    --bg-color: #f7fafc;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.article-header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.meta-info {
+    color: #718096;
+    font-size: 0.95em;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tag {
+    background-color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85em;
+    color: var(--accent-color);
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+code {
+    background-color: var(--bg-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #e53e3e;
+}
+
+.callout {
+    background-color: #ebf8ff;
+    border-left: 4px solid var(--accent-color);
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    text-align: center;
+    color: #718096;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
