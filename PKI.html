@@ -29,12 +29,37 @@
     </script>
     <meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/ing-kensly-pierre-ssi/">
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; padding-top: 50px; color: #333;">
-    <h2>Redirection vers l'article...</h2>
-    <p>Si vous n'êtes pas redirigé automatiquement, <a id="fallback-link" href="#">cliquez ici</a>.</p>
-    
-    <script>
-        document.getElementById('fallback-link').href = destination;
-    </script>
+<body>
+
+    <main class="container">
+        
+        <header class="article-header">
+            <span class="tag">Infrastructure & PKI</span>
+            <h1>PKI & Sécurité : L'angle mort de la Révocation (CRL vs OCSP)</h1>
+            <div class="meta-info">
+                <span>Par <strong>Kensly P.</strong></span>
+                <span>•</span>
+                <span>Temps de lecture : 4 min</span>
+            </div>
+        </header>
+
+        <article>
+            <img src="images/cover-pki.jpg" alt="Illustration Serveur PKI" class="hero-image">
+
+            <p>Dans la conception d'une <strong>Public Key Infrastructure (PKI)</strong>, les équipes se concentrent souvent sur la cérémonie de création de la Root CA, le chiffrement et le déploiement des certificats (x509). Pourtant, la véritable faille de sécurité ne réside pas dans l'émission, mais dans le cycle de fin de vie.</p>
+
+            <div class="callout">
+                <strong>💡 Le problème fondamental :</strong> Un certificat compromis reste valide par défaut jusqu'à son expiration mathématique, à moins que le client ne puisse vérifier activement son statut.
+            </div>
+
+            </article>
+
+        <footer class="footer">
+            <p>Article rédigé par Kensly P. - Expert Infrastructure Sécurité & Réseaux.</p>
+            <p>👉 <a href="https://www.linkedin.com/in/ing-kensly-pierre-ssi/" target="_blank">Discutons-en sur LinkedIn</a></p>
+        </footer>
+
+    </main>
 </body>
+   
 </html>
